@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+        .container {
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    background-color: #2774d8;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: 15px;
+
+}
+path {
+    stroke: black;
+    stroke-width: 1px;
+    fill:none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+
+        <svg width="250" height="250" viewBox="0 0 132.29166 132.29167">
+            <path
+            d="m 42.333333,5.2916667 c 13.229166,0 0,47.6250003 23.8125,47.6250003 23.8125,0 10.583333,-47.6250003 23.8125,-47.6250003 13.229167,0 39.687497,5.2916663 39.687497,60.8541663 C 129.64583,121.70833 103.1875,127 89.958333,127 c -13.229167,0 0,-44.979167 -23.8125,-44.979167 C 42.333333,82.020833 55.562499,127 42.333333,127 29.104167,127 2.6458337,121.70833 2.6458333,66.145833 2.645833,10.583333 29.104167,5.2916667 42.333333,5.2916667 Z"
+            id="path" />
+        </svg>
+    </div>
+    <script>let motion_path = anime.path('#path');
+        anime({
+            targets: '#box1',
+            translateX: motion_path('x'),
+            translateY: motion_path('y'),
+            rotate: motion_path('angle'),
+            easing: 'linear',
+            duration: 5000,
+            loop: true,
+        });</script>
+</body>
+</html>

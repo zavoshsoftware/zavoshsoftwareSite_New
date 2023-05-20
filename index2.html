@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <style>
-        .container {
-    width:fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-}
-.box {
-    background-color: #2774d8;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    top: -15px;
-    left: 15px;
+      .container {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .box {
+        background-color: #0eaa13;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: -15px;
+        left: 15px;
+      }
 
-}
-path {
-    stroke: black;
-    stroke-width: 1px;
-    fill:none;
-}
+      svg{
+        width: 800px;
+        height: 800px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body style="background-color: #2774d8;">
     <div class="container">
-        <div class="box" id="box1"></div>
+      <div class="box" id="box1">
+        <div class="six-line-container">
+           
 
-        <svg width="250" height="250" viewBox="0 0 132.29166 132.29167">
-            <path
-            d="m 42.333333,5.2916667 c 13.229166,0 0,47.6250003 23.8125,47.6250003 23.8125,0 10.583333,-47.6250003 23.8125,-47.6250003 13.229167,0 39.687497,5.2916663 39.687497,60.8541663 C 129.64583,121.70833 103.1875,127 89.958333,127 c -13.229167,0 0,-44.979167 -23.8125,-44.979167 C 42.333333,82.020833 55.562499,127 42.333333,127 29.104167,127 2.6458337,121.70833 2.6458333,66.145833 2.645833,10.583333 29.104167,5.2916667 42.333333,5.2916667 Z"
-            id="path" />
-        </svg>
+            <div class="six-line-box">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                width="118" height="130">
+                <g>
+                  <image x="0" y="0" width="118" height="130"
+                    xlink:href="data:image/png;base64,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" />
+                </g>
+              </svg>
+            </div>
+            <div class="six-text-box">
+                <h3>سئو سایت</h3>
+                <h5>SEO</h5>
+              </div>
+          </div>
+      </div>
+
+      <svg viewBox="0.160664 -6.19615 30.58 30.79">
+        <path
+          d="m6-3c-8 3-5 10 4 17 10 6 13 2 14-4C27-7 22-9 6-3"
+          stroke="#ffffff"
+          stroke-width="0.2"
+          fill="none"
+          id="path"
+        />
+      </svg>
     </div>
-    <script>let motion_path = anime.path('#path');
-        anime({
-            targets: '#box1',
-            translateX: motion_path('x'),
-            translateY: motion_path('y'),
-            rotate: motion_path('angle'),
-            easing: 'linear',
-            duration: 5000,
-            loop: true,
-        });</script>
-</body>
+    <script>
+      let motion_path = anime.path("#path");
+      anime({
+        targets: "#box1",
+        translateX: motion_path("x") ,
+        translateY: motion_path("y"),
+        rotate: motion_path("angle"),
+        easing: "linear",
+        duration: 10000,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>

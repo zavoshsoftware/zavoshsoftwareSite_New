@@ -581,59 +581,158 @@ section,
 }
 
 .section09 {
-    background-color: #ffffff;
+    background-color: $bachGroungColorLight;
     width: 100%;
     height: 700px;
-    .consulting-img{
+
+    .consulting-img {
         position: absolute;
-    width: 38%;
-    top: 0%;
-    left: 0;
+        width: 38%;
+        top: 0%;
+        left: 0;
     }
-    .consulting-paraf{
+
+    .consulting-paraf {
         font-size: $smallSize;
         color: $backGroundColor;
         text-align: justify;
         font-weight: 500;
         padding: 10px 35px;
-    
+
+    }
 }
-}
-.section10{
-    background-color: #ffffff;
+
+.section10 {
+    background-color: $bachGroungColorLight;
     width: 100%;
     height: 700px;
-    .attributes-img{
+
+    .attributes-img {
         position: absolute;
         width: 50%;
         right: 0;
         top: 0;
     }
-    .features-shell{
+
+    .features-shell {
         position: relative;
         top: 100px;
+
         .features-item {
             padding: 20px;
             text-align: left;
-    
+
             img {
                 width: 40px;
                 margin-bottom: 10px;
             }
-    
+
             h5 {
                 color: $blueHoverColor;
                 font-weight: 300;
             }
-    
+
             h6 {
                 color: $linkMenuColor;
                 font-size: $smallSize;
             }
         }
-    
+
     }
-   
+
+}
+
+.section11 {
+    background-color: $bachGroungColorLight;
+    height: 800px;
+    width: 100%;
+
+    .price-img {
+        position: absolute;
+        width: 45%;
+    }
+
+    .price-paraf {
+        font-size: $smallSize;
+        color: $backGroundColor;
+        text-align: justify;
+        font-weight: 500;
+        padding: 10px 35px;
+        position: relative;
+        top: 200px;
+    }
+}
+
+.section12 {
+    padding: 100px 30px;
+    background-color: $bachGroungColorLight;
+    height: 60vh !important;
+    width: 100%;
+    z-index: 2 !important;
+
+    .tecno-paraf-w100 {
+        padding: 7px 30px;
+        font-size: $smallSize;
+        color: $backGroundColor;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+}
+
+.section13 {
+
+    background-color: $bachGroungColorLight;
+    height: 700px;
+    width: 100%;
+    z-index: 10 !important;
+
+    .grouping-img {
+        width: 40%;
+        position: absolute;
+        right: -2px;
+        top: 0;
+        z-index: 10;
+    }
+
+    .grouping-paraf {
+        padding: 7px 0px;
+        font-size: $smallSize;
+        color: $backGroundColor;
+        text-align: justify;
+        font-weight: 500;
+        position: relative;
+        top: 50px;
+    }
+}
+
+.section14 {
+    background-color: $bachGroungColorLight;
+    height: 700px;
+    width: 100%;
+
+    .grouping-dis-shell {
+        margin-top: 30px;
+        padding: 10px 30px;
+        background-image: url(/Accets/images/svg-blur.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        height: 340px;
+
+        .grouping-dis-tile {
+            color: $blueHoverColor;
+        }
+
+        .grouping-dis-paraf {
+
+            font-size: $smallSize;
+            color: $backGroundColor;
+            text-align: justify;
+            font-weight: 500;
+
+        }
+    }
 }
 
 footer {

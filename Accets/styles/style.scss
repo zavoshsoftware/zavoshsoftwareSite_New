@@ -583,11 +583,11 @@ section,
 .section09 {
     background-color: $bachGroungColorLight;
     width: 100%;
-    height: 700px;
+    height: 900px;
 
     .consulting-img {
         position: absolute;
-        width: 38%;
+        width: 35%;
         top: 0%;
         left: 0;
     }
@@ -605,7 +605,7 @@ section,
 .section10 {
     background-color: $bachGroungColorLight;
     width: 100%;
-    height: 700px;
+    height:900px;
 
     .attributes-img {
         position: absolute;
@@ -644,7 +644,7 @@ section,
 
 .section11 {
     background-color: $bachGroungColorLight;
-    height: 800px;
+    height: 900px;
     width: 100%;
 
     .price-img {
@@ -683,12 +683,12 @@ section,
 .section13 {
 
     background-color: $bachGroungColorLight;
-    height: 700px;
+    height: 900px;
     width: 100%;
     z-index: 10 !important;
 
     .grouping-img {
-        width: 40%;
+        width: 35%;
         position: absolute;
         right: -2px;
         top: 0;
@@ -696,7 +696,7 @@ section,
     }
 
     .grouping-paraf {
-        padding: 7px 0px;
+        padding: 7px 30px;
         font-size: $smallSize;
         color: $backGroundColor;
         text-align: justify;
@@ -708,30 +708,246 @@ section,
 
 .section14 {
     background-color: $bachGroungColorLight;
-    height: 700px;
+    height: 400px;
     width: 100%;
 
+    .grouping-dis-title {
+        color: $blueHoverColor;
+    }
+    
     .grouping-dis-shell {
         margin-top: 30px;
         padding: 10px 30px;
         background-image: url(/Accets/images/svg-blur.png);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 100%;
+        background-size: 80%;
         height: 340px;
 
-        .grouping-dis-tile {
+        .grouping-dis-title {
             color: $blueHoverColor;
         }
 
         .grouping-dis-paraf {
-
             font-size: $smallSize;
             color: $backGroundColor;
             text-align: justify;
             font-weight: 500;
+        }
+    }
+   
+}
+.section15{
+    background-color: $bachGroungColorLight;
+    height: 540px;
+    width: 100%;
+    .svg-wave-up{
+        position: relative;
+        bottom: 108px;
+    }
+}
+.section16{
+    background-color: $backGroundColor;
+    height: 100%;
+    width: 100%;
+    .customers-logo {
+        border: 2px solid #8791a499;
+        border-radius: 15px;
+        padding: 13px 20px;
+        width: 100px;
+        height: 47px;
+        margin: 5px;
+    }
+    .svg-wave-up{
+        margin-bottom: 20px;
+    }
+   .logo-shell{
+    width: max-content;
+    margin: auto;
+   }
+   .Support-img{
+    position: relative;
+    width: 100%;
+    right: -18%;
+   }
+   .Support-paraf-shell{
+    padding: 30px 0 0 30px;
+    .Support-paraf{
+        font-size: $smallSize;
+        color: $linkMenuColor;
+        text-align: justify;
+        font-weight: 500;
+    }
+    .Support-list{
+        list-style: none;
+        padding: 0;
+        .Support-item{
+        color: $linkMenuColor;
+        font-size: $smallSize;
+        font-weight: 500;
 
         }
+    }
+   }
+   .sampel-img-row{ 
+    margin: 50px;
+     .sampel-img-shell{
+    text-align: center;
+    
+    .sampel-img{
+    width: 90%;
+    padding: 7px;
+    border: 1px solid #a9a9a9;
+    border-radius: 45px;
+    overflow: hidden;
+
+   }
+   .sampel-img-cap{
+    color: $linkMenuColor;
+    font-size: $smallSize;
+   }
+
+}}
+ 
+   
+
+}
+.section17{
+background-color: $bachGroungColorLight;
+height:900px;
+width: 100%;
+.accordion{
+    margin-top: 70px;
+    width: 80%;
+    --bs-accordion-bg: #ffffff00;
+    --bs-accordion-btn-focus-border-color: #86b6fe00;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+    .accordion-body{
+  background-color: #ffffff;
+
+    }
+    .accordion-item{
+        border: 1px solid $blueHoverColor;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    .accordion-button::after {
+     
+        margin-right: auto ;
+        margin-left: unset;
+    }
+    .accordion-button:not(.collapsed) {
+       
+        font-size: 13px;
+    }
+   .accordion-button.collapsed {
+        border-radius: 0;
+        padding: 10px;
+        font-size: $smallSize;
+    }
+    }
+
+}
+}
+.section18{
+    background-color: $bachGroungColorLight;
+height:500px;
+width: 100%;
+.col-12{
+    text-align: center;
+    display: contents;
+}
+.Survey-shell{
+    .container{
+        margin: inherit;
+    }
+
+    .question-box{
+   border-radius: 10px;
+   border:1px solid #212e45;
+   width: 80%;
+   padding: 10px;
+   margin: 10px;
+   font-size: $smallSize;
+    }
+    .awnser-box{
+        font-size: $smallSize;
+        background-color: $backGroundColor;
+        color: $linkMenuColor;
+        width: 60%;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+}
+.section19{
+    position: relative;
+    height:660px;
+    width: 100%;
+    .contact-us-shell {
+        position: relative;
+        top: 40px;
+        padding: 30px;
+
+        p {
+            text-align: justify;
+            color: $linkMenuColor;
+            font-size: $smallSize;
+
+        }
+
+        .phone-num-shell {
+
+            .phone-num {
+                color: $blueHoverColor;
+                font-size: 35px;
+                display: inline-block;
+
+            }
+
+            .phone-num-line {
+                height: 25px;
+                width: 1px;
+                margin: 0 16px;
+                border: 1px solid $linkMenuColor;
+                display: inline-block;
+
+            }
+        }
+    }
+
+    .ps-footer {
+        position: absolute;
+        left: 10%;
+        bottom: 10%;
+   
+       
+    
+
+        .ps-link {
+            color: $linkMenuColor;
+            font-size: 9px;
+        }
+
+        .ps-line {
+            height: 10px;
+            display: inline-block;
+            border: 1px solid $linkMenuColor;
+            margin: 0 5px;
+        }
+
+        p {
+            color: $linkMenuColor;
+            font-size: 9px;
+        }
+    }
+
+    .contact-us-img {
+        position: absolute;
+        right: 11%;
+        width: 35%;
+        top: 17%;
     }
 }
 
@@ -753,8 +969,7 @@ footer {
         right: 45%;
         height: 0;
 
-        img {}
-
+       
         .mouse-cabl {
             height: 24px;
             width: 1px;
@@ -804,7 +1019,7 @@ footer {
         right: 45%;
         height: 0;
 
-        img {}
+        
 
         .mouse-cabl {
             height: 24px;

@@ -163,13 +163,13 @@ section,
 }
 .navbar .nav-link {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 .navbar .active {
-  color: #44b4ce !important;
+  color: #528fd0 !important;
 }
 .navbar .nav-link:hover {
-  color: #44b4ce;
+  color: #528fd0;
 }
 
 .offcanvas-top {
@@ -235,12 +235,12 @@ section,
 .section01 .paraf-box .paraf {
   padding: 10px;
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
   color: #8791a4;
 }
 .section01 .paraf-box .btn-council {
   border: 1px solid rgb(0, 183, 255);
-  font-size: 12px;
+  font-size: 14px;
   padding: 4px 20px 7px 20px;
   border-radius: 10px;
   color: #8791a4;
@@ -316,12 +316,12 @@ section,
   margin-bottom: 10px;
 }
 .section02 .features-item h5 {
-  color: #44b4ce;
+  color: #528fd0;
   font-weight: 300;
 }
 .section02 .features-item h6 {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section03 .services-img {
@@ -352,13 +352,13 @@ section,
 }
 .section03 p {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
   width: 80%;
 }
 .section03 .btn-council {
   border: 1px solid rgb(0, 183, 255);
-  font-size: 12px;
+  font-size: 14px;
   padding: 4px 20px 7px 20px;
   border-radius: 10px;
   color: #8791a4;
@@ -383,19 +383,19 @@ section,
   margin: 5px 0;
 }
 .section05 .weblog-card h6 {
-  color: #44b4ce !important;
-  font-size: 12px;
+  color: #528fd0 !important;
+  font-size: 14px;
   margin: 5px;
 }
 .section05 .weblog-card p {
-  font-size: 12px;
+  font-size: 14px;
   color: #8791a4;
   text-align: justify;
   margin: 5px;
 }
 .section05 .ready-more a {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section06 .customers-shell {
@@ -444,10 +444,10 @@ section,
 .section07 .contact-us-shell p {
   text-align: justify;
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 .section07 .contact-us-shell .phone-num-shell .phone-num {
-  color: #44b4ce;
+  color: #528fd0;
   font-size: 35px;
   display: inline-block;
 }
@@ -497,7 +497,7 @@ section,
   right: 10%;
 }
 .section08 .website-paraf {
-  font-size: 12px;
+  font-size: 14px;
   color: #8791a4;
   position: absolute;
   top: 50%;
@@ -517,7 +517,7 @@ section,
   left: 0;
 }
 .section09 .consulting-paraf {
-  font-size: 12px;
+  font-size: 14px;
   color: #1a202a;
   text-align: justify;
   font-weight: 500;
@@ -548,12 +548,12 @@ section,
   margin-bottom: 10px;
 }
 .section10 .features-shell .features-item h5 {
-  color: #44b4ce;
+  color: #528fd0;
   font-weight: 300;
 }
 .section10 .features-shell .features-item h6 {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section11 {
@@ -566,7 +566,7 @@ section,
   width: 45%;
 }
 .section11 .price-paraf {
-  font-size: 12px;
+  font-size: 14px;
   color: #1a202a;
   text-align: justify;
   font-weight: 500;
@@ -584,7 +584,7 @@ section,
 }
 .section12 .tecno-paraf-w100 {
   padding: 7px 30px;
-  font-size: 12px;
+  font-size: 14px;
   color: #1a202a;
   text-align: justify;
   font-weight: 500;
@@ -605,7 +605,7 @@ section,
 }
 .section13 .grouping-paraf {
   padding: 7px 30px;
-  font-size: 12px;
+  font-size: 14px;
   color: #1a202a;
   text-align: justify;
   font-weight: 500;
@@ -619,7 +619,7 @@ section,
   width: 100%;
 }
 .section14 .grouping-dis-title {
-  color: #44b4ce;
+  color: #528fd0;
 }
 .section14 .grouping-dis-shell {
   margin-top: 30px;
@@ -631,10 +631,10 @@ section,
   height: 340px;
 }
 .section14 .grouping-dis-shell .grouping-dis-title {
-  color: #44b4ce;
+  color: #528fd0;
 }
 .section14 .grouping-dis-shell .grouping-dis-paraf {
-  font-size: 12px;
+  font-size: 14px;
   color: #1a202a;
   text-align: justify;
   font-weight: 500;
@@ -680,7 +680,7 @@ section,
   padding: 30px 0 0 30px;
 }
 .section16 .Support-paraf-shell .Support-paraf {
-  font-size: 12px;
+  font-size: 14px;
   color: #8791a4;
   text-align: justify;
   font-weight: 500;
@@ -691,7 +691,7 @@ section,
 }
 .section16 .Support-paraf-shell .Support-list .Support-item {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 .section16 .sampel-img-row {
@@ -709,7 +709,7 @@ section,
 }
 .section16 .sampel-img-row .sampel-img-shell .sampel-img-cap {
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section17 {
@@ -726,10 +726,10 @@ section,
 }
 .section17 .accordion .accordion-body {
   background-color: rgba(255, 255, 255, 0.431372549);
-  font-size: 12px;
+  font-size: 14px;
 }
 .section17 .accordion .accordion-item {
-  border: 1px solid #44b4ce;
+  border: 1px solid #528fd0;
   margin: 5px;
   border-radius: 10px;
   overflow: hidden;
@@ -744,7 +744,7 @@ section,
 .section17 .accordion .accordion-item .accordion-button.collapsed {
   border-radius: 0;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section18 {
@@ -765,10 +765,10 @@ section,
   width: 80%;
   padding: 10px;
   margin: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .section18 .Survey-shell .awnser-box {
-  font-size: 12px;
+  font-size: 14px;
   background-color: #1a202a;
   color: #8791a4;
   width: 60%;
@@ -790,10 +790,10 @@ section,
 .section19 .contact-us-shell p {
   text-align: justify;
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 .section19 .contact-us-shell .phone-num-shell .phone-num {
-  color: #44b4ce;
+  color: #528fd0;
   font-size: 35px;
   display: inline-block;
 }
@@ -945,8 +945,8 @@ footer .social-media-box .social-item .social-link .fa {
   font-weight: 500;
 }
 .weblog-page .section21 .weblog-list .weblog-list-item .weblog-list-link:hover {
-  color: #44b4ce;
-  border-bottom: 1px solid #44b4ce;
+  color: #528fd0;
+  border-bottom: 1px solid #528fd0;
 }
 .weblog-page .section21 .card {
   background: none;
@@ -969,7 +969,7 @@ footer .social-media-box .social-item .social-link .fa {
 }
 .weblog-page .section21 .card .card-body .weblog-date {
   font-size: 14px;
-  color: #44b4ce;
+  color: #528fd0;
   padding: 8px;
   font-weight: 600;
 }
@@ -1000,10 +1000,10 @@ footer .social-media-box .social-item .social-link .fa {
 .weblog-page .section19 .contact-us-shell p {
   text-align: justify;
   color: #8791a4;
-  font-size: 12px;
+  font-size: 14px;
 }
 .weblog-page .section19 .contact-us-shell .phone-num-shell .phone-num {
-  color: #44b4ce;
+  color: #528fd0;
   font-size: 35px;
   display: inline-block;
 }
@@ -1038,4 +1038,121 @@ footer .social-media-box .social-item .social-link .fa {
   right: 11%;
   width: 35%;
   top: 17%;
+}
+
+.contact-us-page {
+  padding-top: 10%;
+}
+.contact-us-page .contact-us-form {
+  padding-right: 10%;
+}
+.contact-us-page .contact-us-form .six-line-box {
+  padding: 0;
+  text-align: start;
+}
+.contact-us-page .contact-us-form .six-line-box .six-line {
+  width: 80px;
+}
+.contact-us-page .contact-us-form .six-line-box .title-shell {
+  display: inline-grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+.contact-us-page .contact-us-form h5 {
+  color: #a7acb2;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.contact-us-page .contact-us-form h6 {
+  color: #465262;
+}
+.contact-us-page .contact-us-form form .input-box label {
+  color: #8791a4;
+  font-size: 12px;
+  display: block;
+  margin-right: 10px;
+}
+.contact-us-page .contact-us-form form .input-box textarea {
+  display: block;
+  background: none;
+  border: 1px solid #528fd0;
+  border-radius: 10px;
+  color: #8791a4;
+  width: 80%;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 12px;
+  height: 100px;
+}
+.contact-us-page .contact-us-form form .input-box input {
+  display: block;
+  background: none;
+  border: 1px solid #528fd0;
+  border-radius: 10px;
+  color: #8791a4;
+  width: 80%;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.contact-us-page .contact-us-form form .input-box ::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(135, 145, 164, 0.4784313725);
+  opacity: 1; /* Firefox */
+}
+.contact-us-page .contact-us-form form .input-box ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(135, 145, 164, 0.4784313725);
+  opacity: 1; /* Firefox */
+}
+.contact-us-page .contact-us-form form .input-box :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(135, 145, 164, 0.4784313725);
+}
+.contact-us-page .contact-us-form form .input-box ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(135, 145, 164, 0.4784313725);
+}
+.contact-us-page .btn-primary {
+  background: none;
+  border: none;
+  display: grid;
+  margin: 0 60%;
+}
+.contact-us-page .btn-primary .send-btn-icon {
+  width: 60px;
+}
+.contact-us-page .btn-primary:hover {
+  background: none;
+  border: none;
+}
+.contact-us-page .address-box {
+  position: relative;
+  top: -40px;
+  padding: 30px;
+}
+.contact-us-page .address-box p {
+  text-align: justify;
+  color: #8791a4;
+  font-size: 14px;
+}
+.contact-us-page .phone-num-shell .phone-num {
+  color: white;
+  font-size: 40px;
+  display: inline-block;
+}
+.contact-us-page .phone-num-shell .phone-num-line {
+  height: 25px;
+  width: 1px;
+  margin: 0 16px;
+  border: 1px solid #8791a4;
+  display: inline-block;
+}
+.contact-us-page .consulitin-img-us {
+  left: 10%;
+  position: absolute;
+  width: 35%;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */

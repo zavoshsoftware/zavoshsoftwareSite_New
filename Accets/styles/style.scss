@@ -1154,6 +1154,9 @@ footer {
 .contact-us-page {
   padding-top: 10%;
 
+  .dis-paraf{
+    color: $linkMenuColor;
+  }
   .contact-us-form {
     padding-right: 10%;
     .six-line-box {
@@ -1195,7 +1198,7 @@ footer {
           border-radius: 10px;
           color: $linkMenuColor;
           width: 80%;
-          padding: 5px;
+          padding: 5px 10px;
           margin: 5px 0;
           font-size: 12px;
           height: 100px;
@@ -1207,7 +1210,7 @@ footer {
           border-radius: 10px;
           color: $linkMenuColor;
           width: 80%;
-          padding: 5px;
+          padding: 5px 10px;
           margin: 5px 0;
           font-size: 12px;
         }
@@ -1368,4 +1371,121 @@ footer {
       }
     }
   }
+}
+.consulting-us-page{
+
+    padding-top: 8%;
+  
+    .dis-paraf{
+      color: $linkMenuColor;
+      font-size: 12px;
+    
+     
+      text-align: justify;
+     margin: 0;
+    }
+    .contact-us-form {
+      padding-right: 10%;
+      .six-line-box {
+        padding: 0;
+        text-align: start;
+  
+        .six-line {
+          width: 80px;
+        }
+        .title-shell {
+          margin-bottom: 20px;
+          display: inline-grid;
+          align-items: center;
+          justify-items: center;
+          justify-content: space-evenly;
+          align-content: stretch;
+        }
+      }
+      h5 {
+        color: $textMAinColor;
+        margin-top: 15px;
+        font-weight: 300;
+      }
+  
+      h6 {
+        color: $iconColorGray;
+      }
+      form {
+        margin-top: 20px;
+        .row{
+          width: 86%;
+        }
+        .input-box {
+          label {
+            color: $linkMenuColor;
+            font-size: 12px;
+            display: block;
+            margin-right: 10px;
+          }
+          textarea {
+            display: block;
+            background: none;
+            border: 1px solid $blueHoverColor;
+            border-radius: 10px;
+            color: $linkMenuColor;
+            width: 82%;
+            padding: 5px 10px;
+            margin: 5px 0;
+            font-size: 12px;
+            height: 100px;
+          }
+          input {
+            display: block;
+            background: none;
+            border: 1px solid $blueHoverColor;
+            border-radius: 10px;
+            color: $linkMenuColor;
+            width: 95%;
+            padding: 5px 10px;
+            margin: 5px 0;
+            font-size: 12px;
+          }
+          ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #8791a47a;
+            opacity: 1; /* Firefox */
+          }
+  
+          :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #8791a47a;
+          }
+  
+          ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: #8791a47a;
+          }
+        }
+      }
+    }
+    .btn-primary {
+      background: none;
+      border: none;
+  
+      display: grid;
+  
+      margin: 0 65%;
+      .send-btn-icon {
+        width: 60px;
+      }
+    }
+    .btn-primary:hover {
+      background: none;
+      border: none;
+    }
+
+    .consulitin-img-us {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 45%;
+    }
+
+
 }

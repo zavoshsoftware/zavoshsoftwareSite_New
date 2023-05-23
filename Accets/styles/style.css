@@ -1043,6 +1043,9 @@ footer .social-media-box .social-item .social-link .fa {
 .contact-us-page {
   padding-top: 10%;
 }
+.contact-us-page .dis-paraf {
+  color: #8791a4;
+}
 .contact-us-page .contact-us-form {
   padding-right: 10%;
 }
@@ -1081,7 +1084,7 @@ footer .social-media-box .social-item .social-link .fa {
   border-radius: 10px;
   color: #8791a4;
   width: 80%;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 5px 0;
   font-size: 12px;
   height: 100px;
@@ -1093,7 +1096,7 @@ footer .social-media-box .social-item .social-link .fa {
   border-radius: 10px;
   color: #8791a4;
   width: 80%;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 5px 0;
   font-size: 12px;
 }
@@ -1245,4 +1248,112 @@ footer .social-media-box .social-item .social-link .fa {
   border: 1px solid #a9a9a9;
   border-radius: 18px;
   overflow: hidden;
+}
+
+.consulting-us-page {
+  padding-top: 8%;
+}
+.consulting-us-page .dis-paraf {
+  color: #8791a4;
+  font-size: 12px;
+  text-align: justify;
+  margin: 0;
+}
+.consulting-us-page .contact-us-form {
+  padding-right: 10%;
+}
+.consulting-us-page .contact-us-form .six-line-box {
+  padding: 0;
+  text-align: start;
+}
+.consulting-us-page .contact-us-form .six-line-box .six-line {
+  width: 80px;
+}
+.consulting-us-page .contact-us-form .six-line-box .title-shell {
+  margin-bottom: 20px;
+  display: inline-grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+.consulting-us-page .contact-us-form h5 {
+  color: #a7acb2;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.consulting-us-page .contact-us-form h6 {
+  color: #465262;
+}
+.consulting-us-page .contact-us-form form {
+  margin-top: 20px;
+}
+.consulting-us-page .contact-us-form form .row {
+  width: 86%;
+}
+.consulting-us-page .contact-us-form form .input-box label {
+  color: #8791a4;
+  font-size: 12px;
+  display: block;
+  margin-right: 10px;
+}
+.consulting-us-page .contact-us-form form .input-box textarea {
+  display: block;
+  background: none;
+  border: 1px solid #528fd0;
+  border-radius: 10px;
+  color: #8791a4;
+  width: 82%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  font-size: 12px;
+  height: 100px;
+}
+.consulting-us-page .contact-us-form form .input-box input {
+  display: block;
+  background: none;
+  border: 1px solid #528fd0;
+  border-radius: 10px;
+  color: #8791a4;
+  width: 95%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.consulting-us-page .contact-us-form form .input-box ::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(135, 145, 164, 0.4784313725);
+  opacity: 1; /* Firefox */
+}
+.consulting-us-page .contact-us-form form .input-box ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(135, 145, 164, 0.4784313725);
+  opacity: 1; /* Firefox */
+}
+.consulting-us-page .contact-us-form form .input-box :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(135, 145, 164, 0.4784313725);
+}
+.consulting-us-page .contact-us-form form .input-box ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(135, 145, 164, 0.4784313725);
+}
+.consulting-us-page .btn-primary {
+  background: none;
+  border: none;
+  display: grid;
+  margin: 0 65%;
+}
+.consulting-us-page .btn-primary .send-btn-icon {
+  width: 60px;
+}
+.consulting-us-page .btn-primary:hover {
+  background: none;
+  border: none;
+}
+.consulting-us-page .consulitin-img-us {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45%;
 }/*# sourceMappingURL=style.css.map */

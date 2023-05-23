@@ -1178,4 +1178,71 @@ footer .social-media-box .social-item .social-link .fa {
   border: 1px solid #8791a4;
   border-radius: 45px;
   overflow: hidden;
+}
+
+.our-tim-page {
+  width: 70%;
+}
+.our-tim-page .Our-team-img {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  right: 10%;
+}
+.our-tim-page .col-6 {
+  text-align: end;
+  color: #a9a9a9;
+}
+.our-tim-page .col-6 .card-pro {
+  margin-bottom: 30px;
+}
+.our-tim-page .col-6 .card-pro .card-body-pro {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 18px;
+}
+.our-tim-page .col-6 .card-pro .card-body-pro .card-head-pro {
+  color: rgba(47, 60, 211, 0.99);
+  font-size: 14px;
+}
+.our-tim-page .col-6 .card-pro .card-body-pro .card-title-pro {
+  color: #528fd0;
+}
+.our-tim-page .col-6 .card-pro .card-body-pro .card-text-pro {
+  color: #8791a4;
+}
+.our-tim-page .col-6 .card-pro .tim-pro-pic-pro {
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+  border: 1px solid #a9a9a9;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.our-tim-page .col-6 .card-pro .card-body {
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+.our-tim-page .col-6 .card-pro .card-body .card-head {
+  color: rgba(47, 60, 211, 0.99);
+  font-size: 14px;
+}
+.our-tim-page .col-6 .card-pro .card-body .card-title {
+  color: #8791a4;
+  font-size: 12px;
+}
+.our-tim-page .col-6 .card-pro .card-body .card-text {
+  color: #528fd0;
+  font-size: 10px;
+}
+.our-tim-page .col-6 .card-pro .tim-pro-pic {
+  display: inline-block;
+  width: 40%;
+  padding: 4px;
+  border: 1px solid #a9a9a9;
+  border-radius: 18px;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

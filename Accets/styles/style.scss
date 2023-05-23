@@ -1277,26 +1277,95 @@ footer {
     bottom: 0;
   }
 }
-.about-us-page{
-    padding-top: 10%;
-    .About-us-img{
-        position: absolute;
-        top: 0;
-        right: 20%;
+.about-us-page {
+  padding-top: 10%;
+  .About-us-img {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    width: 30%;
+  }
+  p {
+    text-align: justify;
+    color: $linkMenuColor;
+    padding: 0 100px 0 30px;
+    font-size: 14px;
+  }
+  .about-us-img02 {
+    width: 90%;
+    padding: 7px;
+    border: 1px solid $linkMenuColor;
+    border-radius: 45px;
+    overflow: hidden;
+  }
+}
+.our-tim-page {
+  width: 70%;
+  .Our-team-img {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    right: 10%;
+  }
+  .col-6 {
+    text-align: end;
+    color: #a9a9a9;
+    .card-pro {
+      margin-bottom: 30px;
+      .card-body-pro {
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        left: 18px;
+        .card-head-pro {
+          color: rgb(47 60 211 / 99%);
+          font-size: $smallSize;
+        }
+        .card-title-pro {
+          color: $blueHoverColor;
+        }
+        .card-text-pro {
+          color: $linkMenuColor;
+        }
+      }
+      .tim-pro-pic-pro {
+        display: inline-block;
         width: 30%;
-    }
-    p {
-        text-align: justify;
-        color: $linkMenuColor;
-        padding: 0 100px 0 30px;
-        font-size: 14px;
-      }
-      .about-us-img02{
-        width: 90%;
-        padding: 7px;
-        border: 1px solid $linkMenuColor;
-        border-radius: 45px;
+        padding: 5px;
+        border: 1px solid #a9a9a9;
+        border-radius: 40px;
         overflow: hidden;
-        
       }
+    }
+    .card-pro {
+      .card-body {
+        display: inline-block;
+        position: relative;
+
+        top: 8px;
+        left: 8px;
+
+        .card-head {
+          color: rgb(47 60 211 / 99%);
+          font-size: $smallSize;
+        }
+        .card-title {
+          color: $linkMenuColor;
+          font-size: 12px;
+        }
+        .card-text {
+          color: $blueHoverColor;
+          font-size: 10px;
+        }
+      }
+      .tim-pro-pic {
+        display: inline-block;
+        width: 40%;
+        padding: 4px;
+        border: 1px solid #a9a9a9;
+        border-radius: 18px;
+        overflow: hidden;
+      }
+    }
+  }
 }

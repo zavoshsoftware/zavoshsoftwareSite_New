@@ -13,6 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+rel="stylesheet"
+/>
+
     <link href="/Accets/styles/style.css" rel="stylesheet" />
 </head>
 
@@ -20,25 +32,25 @@
 
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-sm" dir="ltr">
+        <nav class="navbar navbar-expand-sm" style="background-color: #1a202a;" dir="ltr">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)">
+                <a class="navbar-brand" href="#">
                     <img class="logo-zavosh" src="/Accets/images/logo-zavosh.png" alt="logo-zavosh" />
                 </a>
 
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav ms-auto d-none d-lg-flex">
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">طراحی سایت فروشگاهی</a>
+                            <a class="nav-link" href="web-dsign.html">طراحی سایت فروشگاهی</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">طراحی اپلیکیشن موبایل</a>
+                            <a class="nav-link" href="web-dsign.html">طراحی اپلیکیشن موبایل</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">سئو سایت</a>
+                            <a class="nav-link" href="#">سئو سایت</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active" href="javascript:void(0) ">طراحی سایت</a>
+                            <a class="nav-link active" href="web-dsign.html">طراحی سایت</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -74,25 +86,25 @@
                         <ul class="menu-itmes">
                             <li class="menu-itme ">
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">طراحی سایت</a>
+                                <a class="menu-link  " href="web-dsign.html">طراحی سایت</a>
                             </li>
                             <li class="menu-itme ">
 
 
 
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">سئو سایت</a>
+                                <a class="menu-link  " href="web-dsign.html">سئو سایت</a>
                             </li>
                             <li class="menu-itme ">
 
 
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">طراحی اپلیکیشن موبایل</a>
+                                <a class="menu-link  " href="web-dsign.html">طراحی اپلیکیشن موبایل</a>
                             </li>
                             <li class="menu-itme ">
 
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">طراحی سایت فروشگاهی</a>
+                                <a class="menu-link  " href="web-dsign.html">طراحی سایت فروشگاهی</a>
                             </li>
                             <li class="menu-itme ">
                                 <div class="triangle-left"></div>
@@ -104,16 +116,16 @@
                             </li>
                             <li class="menu-itme ">
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">درخواست مشاوره</a>
+                                <a class="menu-link  " href="consulting.html">درخواست مشاوره</a>
                             </li>
                             <li class="menu-itme ">
                                 <div class="triangle-left"></div>
-                                <a class="menu-link   " href="#">درباره ما</a>
+                                <a class="menu-link   " href="about-us.html">درباره ما</a>
                             </li>
                             </li>
                             <li class="menu-itme ">
                                 <div class="triangle-left"></div>
-                                <a class="menu-link  " href="#">تماس با ما</a>
+                                <a class="menu-link  " href="contact-us.html">تماس با ما</a>
                             </li>
                         </ul>
                     </div>
@@ -139,39 +151,178 @@
                 <div class="container">
                     <div class="row justify-content-center align-items-center g-2">
                         <div class="col ">
-                            <ul class="weblog-list">
-                                <li class="weblog-list-item">
-                                    <a class="weblog-list-link" href="#">همه</a>
+                            <ul class="weblog-list" id="ex1" role="tablist">
+                                <li class="weblog-list-item" role="presentation">
+                                    <a   class="weblog-list-link nav-link active"
+                                    id="ex1-tab-1"
+                                    data-mdb-toggle="tab"
+                                    href="#ex1-tabs-1"
+                                    role="tab"
+                                    aria-controls="ex1-tabs-1"
+                                    aria-selected="true">همه</a>
                                 </li>
-                                <li class="weblog-list-item">
-                                    <a class="weblog-list-link" href="#">مطالب سئو</a>
+                                <li class="weblog-list-item" role="presentation">
+                                    <a  class="weblog-list-link nav-link"
+                                    id="ex1-tab-2"
+                                    data-mdb-toggle="tab"
+                                    href="#ex1-tabs-2"
+                                    role="tab"
+                                    aria-controls="ex1-tabs-2"
+                                    aria-selected="false">مطالب سئو</a>
                                 </li>
-                                <li class="weblog-list-item">
-                                    <a class="weblog-list-link" href="#">مقالات طراحی سایت</a>
+                                <li class="weblog-list-item" role="presentation">
+                                    <a  class=" weblog-list-link nav-link"
+                                    id="ex1-tab-3"
+                                    data-mdb-toggle="tab"
+                                    href="#ex1-tabs-3"
+                                    role="tab"
+                                    aria-controls="ex1-tabs-3"
+                                    aria-selected="false">مقالات طراحی سایت</a>
                                 </li>
-                                <li class="weblog-list-item">
-                                    <a class="weblog-list-link" href="#">مقالات بازاریابی اینترنتی
+                                <li class="weblog-list-item" role="presentation">
+                                    <a  class=" weblog-list-link nav-link"
+                                    id="ex1-tab-4"
+                                    data-mdb-toggle="tab"
+                                    href="#ex1-tabs-4"
+                                    role="tab"
+                                    aria-controls="ex1-tabs-4"
+                                    aria-selected="false">مقالات بازاریابی اینترنتی
                                     </a>
                                 </li>
                             </ul>
                         </div>
 
                     </div>
-                    <div class="row justify-content-center align-items-center g-2">
-                        <div class="col">
-                           
+
+                                   <!-- Tabs content -->
+<div class="tab-content" id="ex1-content">
+    <div
+      class="tab-pane fade show active"
+      id="ex1-tabs-1"
+      role="tabpanel"
+      aria-labelledby="ex1-tab-1"
+    >
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col-lg-4 col-12">
+           
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                   
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+                        <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+          
+        </div>
+        <div class="col-lg-4 col-12">
+            <div class="card">
+                <a href="#" class="card-shell">
+                    <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                    alt="weblog-card-img">
+                </a>
+              
+                <div class="card-body">
+                    <span class="weblog-date">
+                        مقالات سئو
+                    </span>
+                    <span class="weblog-date">1400/02/09</span>
+                    <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                        روزرسانـی الگوریتم experience page ارائه شده است
+                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                        .باشیم</p>
+                    <a href="#" class="btn btn-primary">
+                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12">
+            <div class="card">
+                <a href="#" class="card-shell">
+                    <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                    alt="weblog-card-img">
+                </a>
+            
+                <div class="card-body">
+                    <span class="weblog-date">
+                        مقالات سئو
+                    </span>
+                    <span class="weblog-date">1400/02/09</span>
+    
+                    <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                        روزرسانـی الگوریتم experience page ارائه شده است
+                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                        .باشیم</p>
+                    <a href="#" class="btn btn-primary">
+                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <div class="row justify-content-center align-items-center g-2">
+                            <div class="col-lg-4 col-12">
+                               
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                       
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-4 col-12">
                                 <div class="card">
                                     <a href="#" class="card-shell">
-                                        <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                        <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
                                         alt="weblog-card-img">
                                     </a>
-                                   
+                                  
                                     <div class="card-body">
                                         <span class="weblog-date">
                                             مقالات سئو
                                         </span>
                                         <span class="weblog-date">1400/02/09</span>
-                                        <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                        <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
                                         <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
                                             است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
                                             سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
@@ -183,75 +334,21 @@
                                         </a>
                                     </div>
                                 </div>
-                          
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
-                              
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-                                    <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
-                                    </a>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
-                            
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-
-                                    <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center g-2">
-                        <div class="col">
-                           
+                            <div class="col-lg-4 col-12">
                                 <div class="card">
                                     <a href="#" class="card-shell">
-                                        <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                        <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
                                         alt="weblog-card-img">
                                     </a>
-                                   
+                                
                                     <div class="card-body">
                                         <span class="weblog-date">
                                             مقالات سئو
                                         </span>
                                         <span class="weblog-date">1400/02/09</span>
-                                        <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+    
+                                        <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
                                         <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
                                             است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
                                             سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
@@ -263,75 +360,49 @@
                                         </a>
                                     </div>
                                 </div>
-                          
+                            </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
+                        <div class="row justify-content-center align-items-center g-2">
+                            <div class="col-lg-4 col-12">
+                               
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                       
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                               
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-                                    <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
-                                    </a>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
-                            
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-
-                                    <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center g-2">
-                        <div class="col">
-                           
+                            <div class="col-lg-4 col-12">
                                 <div class="card">
                                     <a href="#" class="card-shell">
-                                        <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                        <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
                                         alt="weblog-card-img">
                                     </a>
-                                   
+                                  
                                     <div class="card-body">
                                         <span class="weblog-date">
                                             مقالات سئو
                                         </span>
                                         <span class="weblog-date">1400/02/09</span>
-                                        <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                        <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
                                         <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
                                             است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
                                             سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
@@ -343,60 +414,764 @@
                                         </a>
                                     </div>
                                 </div>
-                          
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
-                              
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-                                    <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="card">
+                                    <a href="#" class="card-shell">
+                                        <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                        alt="weblog-card-img">
                                     </a>
+                                
+                                    <div class="card-body">
+                                        <span class="weblog-date">
+                                            مقالات سئو
+                                        </span>
+                                        <span class="weblog-date">1400/02/09</span>
+    
+                                        <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                            روزرسانـی الگوریتم experience page ارائه شده است
+                                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                            .باشیم</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <a href="#" class="card-shell">
-                                    <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
-                                    alt="weblog-card-img">
-                                </a>
-                            
-                                <div class="card-body">
-                                    <span class="weblog-date">
-                                        مقالات سئو
-                                    </span>
-                                    <span class="weblog-date">1400/02/09</span>
-
-                                    <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
-                                    <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
-                                        است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
-                                        سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
-                                        روزرسانـی الگوریتم experience page ارائه شده است
-                                        تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
-                                        .باشیم</p>
-                                    <a href="#" class="btn btn-primary">
-                                        <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
-                                    </a>
-                                </div>
-                            </div>
+    </div>
+    <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-lg-4 col-12">
+               
+                    <div class="card">
+                        <a href="#" class="card-shell">
+                            <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                            alt="weblog-card-img">
+                        </a>
+                       
+                        <div class="card-body">
+                            <span class="weblog-date">
+                                مقالات سئو
+                            </span>
+                            <span class="weblog-date">1400/02/09</span>
+                            <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                روزرسانـی الگوریتم experience page ارائه شده است
+                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                .باشیم</p>
+                            <a href="#" class="btn btn-primary">
+                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                            </a>
                         </div>
                     </div>
+              
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                  
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+                        <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+        
+                        <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+    <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-lg-4 col-12">
+               
+                    <div class="card">
+                        <a href="#" class="card-shell">
+                            <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                            alt="weblog-card-img">
+                        </a>
+                       
+                        <div class="card-body">
+                            <span class="weblog-date">
+                                مقالات سئو
+                            </span>
+                            <span class="weblog-date">1400/02/09</span>
+                            <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                روزرسانـی الگوریتم experience page ارائه شده است
+                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                .باشیم</p>
+                            <a href="#" class="btn btn-primary">
+                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                            </a>
+                        </div>
+                    </div>
+              
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                  
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+                        <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+        
+                        <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+    <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tab-4">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-lg-4 col-12">
+               
+                    <div class="card">
+                        <a href="#" class="card-shell">
+                            <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                            alt="weblog-card-img">
+                        </a>
+                       
+                        <div class="card-body">
+                            <span class="weblog-date">
+                                مقالات سئو
+                            </span>
+                            <span class="weblog-date">1400/02/09</span>
+                            <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                روزرسانـی الگوریتم experience page ارائه شده است
+                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                .باشیم</p>
+                            <a href="#" class="btn btn-primary">
+                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                            </a>
+                        </div>
+                    </div>
+              
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                  
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+                        <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <a href="#" class="card-shell">
+                        <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                        alt="weblog-card-img">
+                    </a>
+                
+                    <div class="card-body">
+                        <span class="weblog-date">
+                            مقالات سئو
+                        </span>
+                        <span class="weblog-date">1400/02/09</span>
+        
+                        <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                        <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                            است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                            سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                            روزرسانـی الگوریتم experience page ارائه شده است
+                            تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                            .باشیم</p>
+                        <a href="#" class="btn btn-primary">
+                            <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col-lg-4 col-12">
+                                   
+                                        <div class="card">
+                                            <a href="#" class="card-shell">
+                                                <img src="/Accets/images/weblog/weblog-card-img.png" class="weblog-card-img"
+                                                alt="weblog-card-img">
+                                            </a>
+                                           
+                                            <div class="card-body">
+                                                <span class="weblog-date">
+                                                    مقالات سئو
+                                                </span>
+                                                <span class="weblog-date">1400/02/09</span>
+                                                <h5 class="card-title">کاربرد experience page در سرچ کنسول چیست؟</h5>
+                                                <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                    است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                    سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                    روزرسانـی الگوریتم experience page ارائه شده است
+                                                    تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                    .باشیم</p>
+                                                <a href="#" class="btn btn-primary">
+                                                    <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img02.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                      
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+                                            <h5 class="card-title"> های رشد یک فروشگاههای اینترنتی چیست؟</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="card">
+                                        <a href="#" class="card-shell">
+                                            <img src="/Accets/images/weblog/weblog-card-img03.png" class="weblog-card-img"
+                                            alt="weblog-card-img">
+                                        </a>
+                                    
+                                        <div class="card-body">
+                                            <span class="weblog-date">
+                                                مقالات سئو
+                                            </span>
+                                            <span class="weblog-date">1400/02/09</span>
+        
+                                            <h5 class="card-title">مزایا و معایب طراحی سایت وردپرس</h5>
+                                            <p class="card-text">هـــدف اصلی experience page در سرچ کنسول این
+                                                است که کاربران ابزار بیشتری برای بهبود وضعیـت وب
+                                                سایت خود داشتـه باشنـــد. ایــن امکان قبـــل از به
+                                                روزرسانـی الگوریتم experience page ارائه شده است
+                                                تا ابـــزار بیشتــری برای بهبود وضعیت سایـت داشته
+                                                .باشیم</p>
+                                            <a href="#" class="btn btn-primary">
+                                                <img src="/Accets/images/weblog/weblog-icon-btn .png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+  </div>
+  <!-- Tabs content -->
+  
                     
                 </div>
             </div>
@@ -492,6 +1267,11 @@
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+></script>
 
     <script>
         let motion_path = anime.path("#path");

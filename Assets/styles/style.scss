@@ -25,10 +25,18 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem !important;
   margin: 0;
   padding: 0;
   text-align: center;
+}
+h2 {
+  font-size: 1.3rem !important;
+  font-weight: 900;
+}
+h3{
+  font-size: 1.1rem;
+    font-weight: 900;
 }
 
 p {
@@ -735,26 +743,45 @@ section,
       width: 34%;
       top: 30%;
       right: 6%;
+      @media only screen and (max-width: 900px) {
+        width: 40%;
+      }
     }
 
     .title-shell {
       color: $linkMenuColor;
       position: absolute;
       top: 38%;
-      right: 37%;
+      right: 36%;
+      .six-line-box{
+        .six-line{
+          width: 90px;
+    padding: 10px;
+    @media only screen and (max-width: 900px) {
+      width: 70px;
+    }
+        }
+      }
 
       .title-text-shell {
         font-size: 2rem;
         padding-right: 2%;
-        margin-top: 10%;
+        margin-top: 7%;
         text-align: center;
         h1{
           margin-bottom: 5px;
+          @media only screen and (max-width: 900px) {
+            font-size: 1.1rem !important;
+          }
+          
         }
       }
 
       .title-text-shell-web {
         padding-right: 10%;
+        @media only screen and (max-width: 900px) {
+          padding-right: 0%;
+        }
       }
     }
   }
@@ -820,29 +847,55 @@ section,
       width: 40%;
       top: 8%;
       left: -8%;
+      @media only screen and (max-width: 900px) {
+        width: 58%;
+        left: -23%;
+      }
     }
 
     .title-shell {
       color: $linkMenuColor;
 
       position: absolute;
-      bottom: 0%;
-      left: 21%;
+      bottom: 5%;
+      left: 19%;
+      @media only screen and (max-width: 900px) {
+        bottom: 100%;
+        top: 10%;
+      }
+      .six-line-box{
+        .six-line{
+          width: 90px;
+          @media only screen and (max-width: 900px) {
+            width: 45px;
+          }
+        }
+      }
 
       .title-text-shell {
         font-size: 1.5rem;
         padding-right: 2%;
         margin-top: 10%;
         text-align: center;
+        @media only screen and (max-width: 900px) {
+          margin-top: 0%;
+          text-align: end;
+        }
 
         h2 {
           font-size: 1.7rem;
           color: #212f46;
         }
+        
       }
 
       .title-text-shell-web {
         padding-right: 10%;
+      }
+    }
+    .title-shell-seo{
+      @media only screen and (max-width: 900px) {
+        left: 33%;
       }
     }
   }
@@ -879,16 +932,21 @@ section,
 
       right: 32%;
       top: 10%;
-      width: 30%;
+      width: 31%;
+      @media only screen and (max-width: 900px) {
+        width: 70%;
+      }
 
       .title-text-shell {
         font-size: 1.5rem;
         padding-right: 2%;
-        margin-top: 10%;
-        text-align: center;
+        margin-top: 5%;
+        text-align: start;
+        width: 55%;
 
         h2 {
-          font-size: 1.7rem;
+          font-size: 1.5rem;
+          font-weight: 900;
         }
       }
 
@@ -902,6 +960,9 @@ section,
 
     position: relative;
     top: 200px;
+    @media only screen and (max-width: 900px) {
+      top: 0px;
+    }
 }
 .consulting-paraf-shell-mob{
   position: relative;
@@ -910,12 +971,27 @@ section,
 }
 
 .seo-hat-section09{
+  h3{
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-right: 5%;
+  }
+  ul{
+    list-style-type: circle;
+    margin-right: 5%;
+    font-size: .9rem;
+    font-weight: 500;
+  }
   .title-shell {
     color: #a7acb2;
     position: absolute;
-    top: 5% !important;
-    left: 23% !important;
-    width: 40% ;
+    top: 9% !important;
+    left: 26% !important;
+    width: 25%;
+    @media only screen and (max-width: 900px) {
+      width: 70%;
+      left: 13% !important
+    }
 }
 .title-text-shell {
   
@@ -926,6 +1002,9 @@ section,
 
   position: relative;
   top: 200px;
+}
+.consulting-paraf-shell-shop{
+  top: 150px !important;
 }
 }
 .section10 {
@@ -1062,6 +1141,18 @@ section,
 
 .section-seo-12 {
   height: 100% !important;
+  ul{
+    list-style: circle;
+    li{
+      font-size: .9rem;
+      font-weight: 500;
+      margin-right: 2%;
+     }
+  }
+   
+   h3{
+    margin-right: 3%;
+   }
 }
 
 .section13 {
@@ -1114,9 +1205,14 @@ section,
   @media only screen and (max-width: 900px) {
     position: relative;
     top: -20px;
-    height: 150vh;
+    height: 164vh;
   }
-
+   .grouping-dis-paraf {
+    font-size: 0.9rem;
+    color: #1a202a;
+    text-align: justify;
+    font-weight: 500;
+}
   .grouping-dis-title {
     color: $blueHoverColor;
 
@@ -1147,6 +1243,10 @@ section,
   }
 }
 .seo-hat-section14{
+  @media only screen and (max-width: 900px) {
+  top:0;
+  }
+
   .grouping-dis-shell{
     background: none !important;
     height: 200px;
@@ -1154,6 +1254,9 @@ section,
 }
 .mob-design-14{
   height: 450px !important;
+  @media only screen and (max-width: 900px) {
+    height: 910px !important;
+  }
 }
 .Services-seo-09{
   .title-shell{
@@ -1193,7 +1296,17 @@ section,
       flex: 0 0 0;
     }
   }
-
+.btn-more{
+  font-size: .8rem;
+  color: $linkMenuColor;
+  width: 25%;
+  position: relative;
+  z-index: 99;
+  @media only screen and (max-width: 900px) {
+    font-size: .5rem;
+    width: 50%;
+  }
+}
   .customers-logo {
     border: 2px solid #8791a499;
     border-radius: 15px;
@@ -1608,6 +1721,9 @@ section,
         display: inline-block;
         padding: 10px 50px;
         text-align: justify;
+        @media only screen and (max-width: 900px) {
+          padding: 10px ;
+        }
       }
     }
   }

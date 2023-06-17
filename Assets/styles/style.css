@@ -241,6 +241,12 @@ section,
   top: 170px;
   width: 70%;
 }
+@media only screen and (min-width: 2000px) {
+  .offcanvas-top .offcanvas-body .menu-itmes {
+    right: -15%;
+    top: 260px;
+  }
+}
 .offcanvas-top .offcanvas-body .menu-itmes .triangle-left {
   width: 0px !important;
   height: 0 !important;
@@ -257,6 +263,12 @@ section,
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
+}
+@media only screen and (min-width: 2000px) {
+  .offcanvas-top .offcanvas-body .menu-itmes .menu-link {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }
 
 .section01 {
@@ -682,7 +694,7 @@ section,
   width: 100%;
   padding: 0;
   margin: 0;
-  height: 600px;
+  height: 100%;
 }
 @media only screen and (min-width: 2000px) {
   .section08 {
@@ -1098,10 +1110,15 @@ section,
   width: 100%;
   z-index: 10 !important;
 }
+@media only screen and (min-width: 2000px) {
+  .section13 {
+    height: 1133px;
+  }
+}
 .section13 .grouping-img {
   width: 100%;
   position: relative;
-  right: -19%;
+  right: -32%;
   top: 162px;
   z-index: 10;
 }
@@ -1280,7 +1297,7 @@ section,
 .section16 .Support-img {
   position: relative;
   width: 100%;
-  right: -18%;
+  right: -32%;
 }
 .section16 .Support-paraf-shell {
   padding: 30px 0 0 30px;
@@ -1367,7 +1384,7 @@ section,
 
 .section17 {
   background-color: #e5e6e8;
-  height: 1050px;
+  height: 100%;
   width: 100%;
 }
 @media only screen and (max-width: 990px) {

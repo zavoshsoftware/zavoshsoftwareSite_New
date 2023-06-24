@@ -298,11 +298,9 @@ const WholePageSlider = class {
     this.touches.differenceY = this.touches.startY - this.touches.endY
 
     // We need to know vertical or horizontal swipe accured and then left/right or up/down
-    if (Math.abs(this.touches.differenceX) > Math.abs(this.touches.differenceY)) {
-      this.swipeEndDirection = this.touches.differenceX > 0 ? 'right' : 'left'
-    } else {
+    if (Math.abs(this.touches.differenceX) < Math.abs(this.touches.differenceY)) {
       this.swipeEndDirection = this.touches.differenceY > 0 ? 'down' : 'up'
-    }
+    } 
 
     this.draggingEffect()
   }

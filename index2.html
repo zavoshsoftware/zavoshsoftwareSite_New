@@ -16,24 +16,27 @@
         position: relative;
         width: 30px;
         height: 30px;
-        top: -15px;
+        top: 115px;
         left: 15px;
       }
-
-      svg{
-        width: 800px;
-        height: 800px;
+     
+      .svg{
+        position: relative;
+        top :130px;
+        width: 700px;
+        height: 700px;
       }
     </style>
   </head>
   <body style="background-color: #2774d8;">
     <div class="container">
       <div class="box" id="box1">
+        
         <div class="six-line-container">
            
 
             <div class="six-line-box">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+              <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                 width="118" height="130">
                 <g>
                   <image x="0" y="0" width="118" height="130"
@@ -41,14 +44,13 @@
                 </g>
               </svg>
             </div>
-            <div class="six-text-box">
-                <h3>سئو سایت</h3>
-                <h5>SEO</h5>
-              </div>
+            
           </div>
       </div>
 
-      <svg viewBox="0.160664 -6.19615 30.58 30.79">
+     
+
+      <svg class="svg" viewBox="0.160664 -6.19615 30.58 30.79">
         <path
           d="m6-3c-8 3-5 10 4 17 10 6 13 2 14-4C27-7 22-9 6-3"
           stroke="#ffffff"
@@ -62,6 +64,15 @@
       let motion_path = anime.path("#path");
       anime({
         targets: "#box1",
+        translateX: motion_path("x") ,
+        translateY: motion_path("y"),
+        rotate: motion_path("angle"),
+        easing: "linear",
+        duration: 10000,
+        loop: true,
+      });
+      anime({
+        targets: "#box2",
         translateX: motion_path("x") ,
         translateY: motion_path("y"),
         rotate: motion_path("angle"),

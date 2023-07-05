@@ -33,9 +33,6 @@ body {
   background-color: #1a202a;
   height: 100vh;
   width: 100%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
   overflow: hidden;
   touch-action: none;
   overscroll-behavior-y: contain;
@@ -276,6 +273,136 @@ section,
 .section01 {
   padding: 0 5%;
 }
+.section01 .title-first {
+  position: relative;
+  width: 522px;
+  margin: auto;
+  top: 40%;
+  height: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first {
+    top: -5%;
+    right: -3%;
+  }
+}
+.section01 .title-first h1 {
+  color: white;
+  font-weight: 900;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first h1 {
+    font-size: 0.7rem !important;
+  }
+}
+.section01 .title-first h2 {
+  color: rgba(2, 32, 82, 0.9098039216);
+  margin-top: 20px;
+  font-size: 3rem !important;
+  font-weight: 900;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first h2 {
+    font-size: 1.5rem !important;
+  }
+}
+.section01 .title-first1 {
+  position: relative;
+  width: 522px;
+  margin: auto;
+  top: 5%;
+  right: -21%;
+  height: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first1 {
+    top: -61%;
+    right: -26%;
+  }
+}
+.section01 .title-first1 h3 {
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first1 h3 {
+    font-size: 0.8rem;
+  }
+}
+.section01 .title-first1 h4 {
+  color: rgba(255, 255, 255, 0.4509803922);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first1 h4 {
+    font-size: 0.8rem;
+  }
+}
+.section01 .title-first2 {
+  position: relative;
+  width: 522px;
+  margin: auto;
+  top: 40%;
+  right: 26%;
+  height: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first2 {
+    top: 18%;
+    right: 26%;
+  }
+}
+.section01 .title-first2 h3 {
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first2 h3 {
+    font-size: 0.8rem;
+  }
+}
+.section01 .title-first2 h4 {
+  color: rgba(255, 255, 255, 0.4509803922);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first2 h4 {
+    font-size: 0.8rem;
+  }
+}
+.section01 .title-first3 {
+  position: relative;
+  width: 522px;
+  margin: auto;
+  top: 84%;
+  right: -23%;
+  height: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first3 {
+    top: 63%;
+    right: -24%;
+  }
+}
+.section01 .title-first3 h3 {
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first3 h3 {
+    font-size: 0.8rem;
+  }
+}
+.section01 .title-first3 h4 {
+  color: rgba(255, 255, 255, 0.4509803922);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section01 .title-first3 h4 {
+    font-size: 0.8rem;
+  }
+}
 .section01 .paraf-box {
   position: relative;
   bottom: 43px;
@@ -343,21 +470,54 @@ section,
 }
 .section01 .Services-first {
   position: relative;
-  width: 60%;
-  top: 15%;
-  right: 15%;
+  width: 38%;
+  right: 2%;
+  top: -3%;
 }
 @media only screen and (max-width: 990px) {
   .section01 .Services-first {
-    width: 90%;
+    width: 51%;
     top: -45%;
-    right: 8%;
+    right: 0%;
   }
 }
 
 @media only screen and (max-width: 990px) {
   .section02 {
     padding-left: 25px;
+  }
+}
+.section02 .title-box {
+  position: absolute;
+  width: 562px;
+  bottom: 28%;
+  right: 28%;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section02 .title-box {
+    position: absolute;
+    width: 300px;
+    top: 24%;
+    right: 31%;
+  }
+}
+.section02 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section02 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section02 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section02 .title-box h4 {
+    font-size: 0.7rem;
   }
 }
 .section02 .features-img {
@@ -368,7 +528,7 @@ section,
 }
 @media only screen and (max-width: 990px) {
   .section02 .features-img {
-    width: 80%;
+    width: 67%;
   }
 }
 .section02 .features-item {
@@ -432,7 +592,39 @@ section,
 }
 @media only screen and (max-width: 990px) {
   .section03 .services-img {
-    width: 90%;
+    width: 60%;
+  }
+}
+.section03 .title-box {
+  position: absolute;
+  width: 300px;
+  top: 26%;
+  right: 47%;
+}
+@media only screen and (max-width: 990px) {
+  .section03 .title-box {
+    position: absolute;
+    width: 120px;
+    top: 76%;
+    right: 27%;
+  }
+}
+.section03 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section03 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section03 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section03 .title-box h4 {
+    font-size: 0.7rem;
   }
 }
 .section03 .six-line-box {
@@ -465,6 +657,7 @@ section,
   margin: 5px;
   transition: all 1s;
 }
+
 .btn-council:hover {
   color: white !important;
   border: none;
@@ -602,6 +795,44 @@ section,
   position: absolute;
   top: 0;
 }
+@media only screen and (max-width: 990px) {
+  .section05 .weblog-img {
+    width: 42%;
+  }
+}
+.section05 .title-box {
+  position: absolute;
+  width: 307px;
+  bottom: 20%;
+  right: 25%;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section05 .title-box {
+    position: absolute;
+    width: 228px;
+    top: 10%;
+    right: 31%;
+  }
+}
+.section05 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section05 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section05 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section05 .title-box h4 {
+    font-size: 0.7rem;
+  }
+}
 .section05 .weblog-card {
   padding: 10px 30px;
 }
@@ -688,6 +919,39 @@ section,
   bottom: 0;
   left: 0;
 }
+.section06 .title-box {
+  position: absolute;
+  width: 307px;
+  top: 28%;
+  right: 44%;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section06 .title-box {
+    position: absolute;
+    width: 228px;
+    top: 84%;
+    right: 15%;
+  }
+}
+.section06 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section06 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section06 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section06 .title-box h4 {
+    font-size: 0.7rem;
+  }
+}
 
 .section07 .contact-us-shell {
   position: relative;
@@ -730,6 +994,14 @@ section,
   color: #a7acb2;
   font-size: 9px;
 }
+@media only screen and (min-width: 2000px) {
+  .section07 .ps-footer .ps-link {
+    font-size: 14px !important;
+  }
+}
+.section07 .ps-footer .ps-link:hover {
+  color: #5e7ceb;
+}
 .section07 .ps-footer .ps-line {
   height: 10px;
   display: inline-block;
@@ -740,11 +1012,49 @@ section,
   color: #a7acb2;
   font-size: 9px;
 }
+@media only screen and (min-width: 2000px) {
+  .section07 .ps-footer p {
+    font-size: 14px !important;
+  }
+}
+.section07 .title-box {
+  position: absolute;
+  width: 307px;
+  top: 22%;
+  right: 42%;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section07 .title-box {
+    position: absolute;
+    width: 228px;
+    top: 20%;
+    right: 30%;
+  }
+}
+.section07 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section07 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section07 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section07 .title-box h4 {
+    font-size: 0.7rem;
+  }
+}
 .section07 .contact-us-img {
   position: absolute;
   right: 12%;
   top: 20%;
-  width: 40%;
+  width: 33%;
 }
 
 .section08 {
@@ -787,6 +1097,11 @@ section,
 @media only screen and (max-width: 990px) {
   .section08 .seo-img-shell .title-shell .six-line-box .six-line {
     width: 70px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .section08 .seo-img-shell .title-shell .six-line-box .six-line {
+    width: 120px;
   }
 }
 .section08 .seo-img-shell .title-shell .title-text-shell {
@@ -1363,6 +1678,8 @@ section,
   margin: 5px;
 }
 .section16 .svg-wave-up {
+  position: relative;
+  top: -2px;
   margin-bottom: 20px;
 }
 .section16 .logo-shell {
@@ -1461,6 +1778,11 @@ section,
 }
 .section16 .card .card-body .btn-primary img {
   width: 60px;
+}
+
+.wave-done {
+  position: relative;
+  top: -2px;
 }
 
 .section17 {

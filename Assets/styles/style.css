@@ -163,6 +163,7 @@ section,
   width: 100%;
   padding: 0 5%;
   z-index: 99;
+  margin-top: 20px;
 }
 .navbar .navbar-brand-shell {
   position: relative;
@@ -180,7 +181,7 @@ section,
 }
 .navbar #mynavbar {
   position: relative;
-  animation: move-menu-shell 4s;
+  animation: move-menu-shell 3s;
 }
 @keyframes move-menu-shell {
   from {
@@ -319,10 +320,6 @@ section,
   100% {
     transform: rotate(360deg);
   }
-}
-.section01 .Services-first:hover {
-  animation-play-state: paused;
-  cursor: pointer;
 }
 .section01 .title-first {
   position: relative;

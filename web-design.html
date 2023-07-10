@@ -14,14 +14,16 @@
 
     <link href="/Assets/styles/style.css" rel="stylesheet" />
 </head>
-<body dir="rtl" style="overflow: visible; user-select: auto; background-color: #e5e6e8;">
+<body dir="rtl" style="overflow: visible; user-select: auto; background-color: #e5e6e8 !important;">
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-sm" style="background-color: #1a202a;" dir="ltr">
+        <nav class="navbar navbar-expand-sm" style="background-color: #1a202a !important;" dir="ltr">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo-zavosh" src="/Assets/images/logo-zavosh.png" alt="logo-zavosh" />
-                </a>
+                <div class="navbar-brand-shell">
+                    <a class="navbar-brand" href="index.html">
+                      <img class="logo-zavosh" src="./Assets/images/logo-zavosh.png" alt="logo-zavosh" />
+                    </a>
+                   </div>
 
                 <div class=" navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav ms-auto ">
@@ -129,6 +131,7 @@
                                       <h1>  طراحی وب سایت   </h1>
                                       <h6>Web Design</h6>
                                     </div>
+                                    
                                   </div>
                                 </div>
                             <div class="col-lg-6">
@@ -137,6 +140,11 @@
                                     شده است .
                                     طراحی سایت اصولی و مطابق بــا استانداردهای سئو به شما کمک می کند تا در معـرض دید
                                     مشتریان بیشتری قرار بگیرید و بتوانید برای مشتریان خود ارزش آفرین باشید.</p>
+                            </div>
+                            <div class="col-12">
+                                <h2>
+                                    طراحی وبسایت
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -877,9 +885,22 @@
                 <img src="/Assets/images/waves/svg-wave-02.svg" alt="">
                 <div class="container">
                     <div class="row justify-content-center align-items-center g-2">
-                      <div class="col-lg-6">
-                        <img class="contact-us-img" src="/Assets/images/contact-us.png" alt="contact-us-img">
-                      </div>
+                        <div class="col-lg-6">
+                
+                            <div class="col-12 text-center">
+                              <div class="title-box">
+                                <a href="./contact-us.html"> 
+                                  <h3 >  تماس با ما  </h3>
+                                  <h4> Contact Us</h4>
+                                </a>
+                               
+                              </div>
+                            </div>
+                            <div class="col-12">
+                             
+                              <img class="contact-us-img" src="./Assets/images/page06.png" alt="">
+                            </div>
+                          </div>
                       <div class="col-lg-6 ">
                       <div class="contact-us-shell">
                         <p>درباره زاوش :</p>
@@ -965,11 +986,7 @@
     <script src="./Assets/dist/bootstrap.min.js"
    ></script>
     <script src="./Assets/dist/anime.min.js"></script>
-    <script>
-        new WholePageSlider({
-            colors: ["deepskyblue", "orange", "white", "lightgrey"],
-        });
-    </script>
+
 </body>
 
 </html>

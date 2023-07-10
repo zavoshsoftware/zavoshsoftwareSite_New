@@ -164,8 +164,36 @@ section,
   padding: 0 5%;
   z-index: 99;
 }
+.navbar .navbar-brand-shell {
+  position: relative;
+  animation: move-logo 2s;
+}
+@keyframes move-logo {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+.navbar #mynavbar {
+  position: relative;
+  animation: move-menu-shell 4s;
+}
+@keyframes move-menu-shell {
+  from {
+    right: -15%;
+    opacity: 0;
+  }
+  to {
+    right: 0%;
+    opacity: 1;
+  }
+}
 .navbar form {
-  padding-left: 10px;
+  padding-left: 100px;
 }
 .navbar .navbar-nav {
   margin-top: 8px;
@@ -182,7 +210,7 @@ section,
   .navbar .menu-icon {
     right: 10%;
     display: inline-block;
-    top: 38%;
+    top: -38px;
   }
 }
 .navbar .nav-link {
@@ -272,19 +300,72 @@ section,
 
 .section01 {
   padding: 0 5%;
+  animation: move-section01 3s;
+}
+@keyframes move-section01 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section01 .Services-first {
+  position: absolute;
+  margin: -60px 0 0 -60px;
+  animation: spin 15s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.section01 .Services-first:hover {
+  animation-play-state: paused;
+  cursor: pointer;
 }
 .section01 .title-first {
   position: relative;
   width: 522px;
   margin: auto;
-  top: 40%;
+  top: -20px;
   height: 0;
+  left: 10px;
   z-index: 1;
+  animation: mymove 3s;
+}
+@keyframes mymove {
+  from {
+    left: 1000px;
+    opacity: 0;
+  }
+  to {
+    left: 10px;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .section01 .title-first {
+    top: 50px;
+    left: 10px;
+  }
 }
 @media only screen and (max-width: 990px) {
   .section01 .title-first {
-    top: -5%;
-    right: -3%;
+    top: 27%;
+    right: -15%;
+    position: absolute;
+    animation: mymove 3s;
+  }
+  @keyframes mymove {
+    from {
+      top: 20%;
+      opacity: 0;
+    }
+    to {
+      top: 27%;
+      opacity: 1;
+    }
   }
 }
 .section01 .title-first h1 {
@@ -294,6 +375,11 @@ section,
 @media only screen and (max-width: 990px) {
   .section01 .title-first h1 {
     font-size: 0.7rem !important;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .section01 .title-first h1 {
+    font-size: 1.8rem !important;
   }
 }
 .section01 .title-first h2 {
@@ -307,110 +393,40 @@ section,
     font-size: 1.5rem !important;
   }
 }
-.section01 .title-first1 {
-  position: relative;
-  width: 522px;
-  margin: auto;
-  top: 5%;
-  right: -21%;
-  height: 0;
-  z-index: 1;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first1 {
-    top: -61%;
-    right: -26%;
-  }
-}
-.section01 .title-first1 h3 {
-  color: white;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first1 h3 {
-    font-size: 0.8rem;
-  }
-}
-.section01 .title-first1 h4 {
-  color: rgba(255, 255, 255, 0.4509803922);
-  font-size: 1.2rem;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first1 h4 {
-    font-size: 0.8rem;
-  }
-}
-.section01 .title-first2 {
-  position: relative;
-  width: 522px;
-  margin: auto;
-  top: 40%;
-  right: 26%;
-  height: 0;
-  z-index: 1;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first2 {
-    top: 18%;
-    right: 26%;
-  }
-}
-.section01 .title-first2 h3 {
-  color: white;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first2 h3 {
-    font-size: 0.8rem;
-  }
-}
-.section01 .title-first2 h4 {
-  color: rgba(255, 255, 255, 0.4509803922);
-  font-size: 1.2rem;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first2 h4 {
-    font-size: 0.8rem;
-  }
-}
-.section01 .title-first3 {
-  position: relative;
-  width: 522px;
-  margin: auto;
-  top: 84%;
-  right: -23%;
-  height: 0;
-  z-index: 1;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first3 {
-    top: 63%;
-    right: -24%;
-  }
-}
-.section01 .title-first3 h3 {
-  color: white;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first3 h3 {
-    font-size: 0.8rem;
-  }
-}
-.section01 .title-first3 h4 {
-  color: rgba(255, 255, 255, 0.4509803922);
-  font-size: 1.2rem;
-}
-@media only screen and (max-width: 990px) {
-  .section01 .title-first3 h4 {
-    font-size: 0.8rem;
-  }
-}
 .section01 .paraf-box {
   position: relative;
-  bottom: 43px;
+  bottom: -300px;
+  margin-right: 115px;
+  animation: move-paraf-box 3s;
+}
+@keyframes move-paraf-box {
+  from {
+    bottom: 800px;
+    opacity: 0;
+  }
+  to {
+    bottom: -300px;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 990px) {
   .section01 .paraf-box {
-    bottom: -60px;
-    padding: 0 30px;
+    bottom: 23%;
+    position: absolute;
+    /* padding: 0 30px; */
+    width: 71%;
+    left: 14%;
+    animation: move-paraf-box 3s;
+  }
+  @keyframes move-paraf-box {
+    from {
+      bottom: 17%;
+      opacity: 0;
+    }
+    to {
+      bottom: 23%;
+      opacity: 1;
+    }
   }
 }
 .section01 .paraf-box .paraf {
@@ -428,10 +444,32 @@ section,
   position: relative;
   left: -70%;
   transition: all 1s;
+  animation: move-btn-council 4s;
+}
+@keyframes move-btn-council {
+  from {
+    left: -200%;
+    opacity: 0;
+  }
+  to {
+    left: -70%;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 990px) {
   .section01 .paraf-box .btn-council {
     left: -50%;
+    animation: move-btn-council 4s;
+  }
+  @keyframes move-btn-council {
+    from {
+      left: -200%;
+      opacity: 0;
+    }
+    to {
+      left: -50%;
+      opacity: 1;
+    }
   }
 }
 .section01 .paraf-box .btn-council:hover {
@@ -469,16 +507,16 @@ section,
   display: inline-block;
 }
 .section01 .Services-first {
-  position: relative;
-  width: 38%;
-  right: 2%;
-  top: -3%;
+  position: absolute;
+  left: 35%;
+  top: 17%;
+  width: 37%;
 }
 @media only screen and (max-width: 990px) {
   .section01 .Services-first {
-    width: 51%;
-    top: -45%;
-    right: 0%;
+    width: 82%;
+    top: 19%;
+    right: 8%;
   }
 }
 
@@ -582,6 +620,20 @@ section,
   .section03 {
     height: 85%;
     padding: 0 0 0 3%;
+  }
+}
+.section03 .lazy-section03 {
+  position: relative;
+  animation: move-lazy-section03 12s;
+}
+@keyframes move-lazy-section03 {
+  from {
+    top: 100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
   }
 }
 .section03 .services-img {
@@ -1078,6 +1130,17 @@ section,
   width: 34%;
   top: 30%;
   right: 6%;
+  animation: move-seo-img-shell 1s;
+}
+@keyframes move-seo-img-shell {
+  from {
+    right: -16%;
+    opacity: 0;
+  }
+  to {
+    right: 6%;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 990px) {
   .section08 .seo-img-shell .seo-img {
@@ -1089,6 +1152,17 @@ section,
   position: absolute;
   top: 38%;
   right: 36%;
+  animation: move-title-shell 2s;
+}
+@keyframes move-title-shell {
+  from {
+    top: 0%;
+    opacity: 0;
+  }
+  to {
+    top: 38%;
+    opacity: 1;
+  }
 }
 .section08 .seo-img-shell .title-shell .six-line-box .six-line {
   width: 90px;
@@ -1144,6 +1218,17 @@ section,
   top: 60%;
   left: 15%;
   width: 33%;
+  animation: move-website-paraf 1s;
+}
+@keyframes move-website-paraf {
+  from {
+    left: -15%;
+    opacity: 0;
+  }
+  to {
+    left: 15%;
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 990px) {
   .section08 .website-paraf {
@@ -1448,7 +1533,6 @@ section,
 }
 
 .section12 {
-  padding: 100px 30px;
   background-color: #e5e6e8;
   height: 60vh !important;
   width: 100%;
@@ -2046,9 +2130,17 @@ section,
   }
 }
 
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  position: absolute;
+  border-radius: 15px;
+}
+
 .section19 {
   position: relative;
-  height: 660px;
+  height: 800px;
   width: 100%;
   background-color: #1a202a;
 }
@@ -2109,6 +2201,39 @@ section,
   color: #a7acb2;
   font-size: 9px;
 }
+.section19 .title-box {
+  position: absolute;
+  width: 307px;
+  top: 22%;
+  right: 42%;
+  z-index: 1;
+}
+@media only screen and (max-width: 990px) {
+  .section19 .title-box {
+    position: absolute;
+    width: 228px;
+    top: 20%;
+    right: 30%;
+  }
+}
+.section19 .title-box h3 {
+  color: #a7acb2;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px) {
+  .section19 .title-box h3 {
+    font-size: 1rem;
+  }
+}
+.section19 .title-box h4 {
+  color: rgba(167, 172, 178, 0.4784313725);
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 990px) {
+  .section19 .title-box h4 {
+    font-size: 0.7rem;
+  }
+}
 .section19 .contact-us-img {
   position: absolute;
   right: 11%;
@@ -2153,6 +2278,17 @@ footer .social-media-box {
   padding: 0;
   position: relative;
   bottom: -50px;
+  animation: move-social-media-box 2s;
+}
+@keyframes move-social-media-box {
+  from {
+    bottom: 550px;
+    opacity: 0;
+  }
+  to {
+    bottom: -50px;
+    opacity: 1;
+  }
 }
 footer .social-media-box .social-item {
   padding-left: 15px;
